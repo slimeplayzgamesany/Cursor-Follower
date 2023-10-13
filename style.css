@@ -1,0 +1,56 @@
+html,body {
+    width: 100%;
+    /* height: 100%; */
+}
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    position: relative;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+#follower {
+    height: 50px;
+    width: 50px;
+    /* background-image: url("rocket.avif"); */
+    background-color: aquamarine;
+    background-position: center;
+    background-size: contain;
+    border: 0.5px solid black;
+    border-radius: 50%;
+    position: absolute;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.15s;
+    box-shadow: 0 0 20px 5px blue;
+    z-index: 10;
+}
+#main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 550px;
+}
+#image1,#image2 {
+    height: 65vh;
+    width: 25%;
+    margin-top: 9%;
+    border-radius: 10px;
+    
+ 
+
+}
+#one,#two {
+    height: 100%;
+    width: 100%;
+    margin-right: 25px;
+    border-radius: 10px;
+    transform: scale(1);
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+
+}
